@@ -1,0 +1,8 @@
+# Header
+menu: 
+  Home: /
+  Archive: /archive
+  About: /about
+
+# Footer
+copyright: true 
