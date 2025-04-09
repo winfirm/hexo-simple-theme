@@ -1,0 +1,13 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+    <%= page.title %>
+  </div>
+  <div class="card-body">
+<ul class="list-group list-group-flush">
+  <% site.posts.each(function(post) { %>
+  <li class="list-group-item"><a href="<%- url_for(post.path) %>"><%= post.title %></a> <span style="font-size:10px;"><%= date(post.date, 'YYYY/MM/DD') %></span></li>
+   <% }) %>
+</ul>
+  </div>
+</div>

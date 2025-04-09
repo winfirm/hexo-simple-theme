@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs">
+    <% Object.keys(theme.menu).forEach(key=> { %>
+       <li class="nav-item">
+      	 <% if ((!page.title && key=='Home') || page.title==key) { %>
+      	 <a class="nav-link active" href="<%=theme.menu[key]%>"><%=key%></a>
+      	 <%} else { %>
+      	 <a class="nav-link" href="<%=theme.menu[key]%>"><%=key%></a>
+      	  <% } %>
+      </li>
+      <% }); %>
+</ul>

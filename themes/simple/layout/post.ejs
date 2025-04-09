@@ -1,0 +1,13 @@
+<br/>
+<div class="card">
+  <div class="card-header">
+    <%= page.title %>
+  </div>
+  <div class="card-body">
+    <%- page.content %>
+    
+  <div class="post-meta">
+    <span style="font-size:10px;">Last update: <%= date(page.date, 'YYYY/MM/DD:HH:SS') %></span>
+  </div>
+  </div>
+</div>
