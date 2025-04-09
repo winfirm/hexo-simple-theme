@@ -7,3 +7,5 @@ Yet another hexo theme!
 ```
 theme: simple
 ```
+
+3.Enjoy!
